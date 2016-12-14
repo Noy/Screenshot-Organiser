@@ -18,7 +18,7 @@ func main() {
 func arrangeScreenShots() {
 	// Getting our possible screenshots/images in this example, there are loads more, I know
 	var imageExtensionList = []string{"jpeg","jpg","png"}
-	// Creating our variables for the files and the error in the '.' directory, which wildl always be the current directory
+	// Creating our variables for the files and the error in the '.' directory, which will always be the current directory
 	files, err := ioutil.ReadDir(".")
 	// Check if there are any errors, if so, let us know
 	if err != nil { log.Fatal(err) }
