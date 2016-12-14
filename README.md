@@ -1,6 +1,6 @@
 # Screenshot-Organiser
 
-A little way to organise images if they clutter up your desktop too much.
+A little way to organise images if they clutter up your desktop too much, as they did mine.
 
 To run, type: go run main.go
 
