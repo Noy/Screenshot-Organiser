@@ -1,6 +1,6 @@
-###I added this in here as I thought it matched the topic well, you can customise this to anything, but in my case I had about 300 directories all ending with '.com, .new, .info' etc. and I needed to rename all of them to 'directorynamecom' instead of 'directoryname.com'
+### I added this in here as I thought it matched the topic well, you can customise this to anything, but in my case I had about 300 directories all ending with '.com, .new, .info' etc. and I needed to rename all of them to 'directorynamecom' instead of 'directoryname.com'
 
-####You could always change it to something like:
+#### You could always change it to something like:
 
 ```golang
 for _, file := range files {
@@ -11,6 +11,6 @@ for _, file := range files {
 }
 ```
 
-####I have the logic for random strings in the [Image-Extension](https://github.com/Noy/Screenshot-Organiser/blob/master/image-extension/main.go#L31) class if you want to use that.
+#### I have the logic for random strings in the [Image-Extension](https://github.com/Noy/Screenshot-Organiser/blob/master/image-extension/main.go#L31) class if you want to use that.
 
-##Hope this fits your needs!
+## Hope this fits your needs!
